@@ -12,7 +12,6 @@ apiKey: "AIzaSyDr_cwkESsJHhw_akop6tRzI9Ib6wWl7cw",
   storageBucket: "surarent.firebasestorage.app",
   messagingSenderId: "250193050542",
   appId: "1:250193050542:web:551b263831e473ede2663f",
-  measurementId: "G-WY2B5XPGSG"
 };
 
 const app = initializeApp(firebaseConfig);
