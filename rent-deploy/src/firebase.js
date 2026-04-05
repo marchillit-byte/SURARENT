@@ -6,12 +6,13 @@ import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 // (ดูวิธีได้ใน SETUP-FIREBASE.md)
 // ===========================================
 const firebaseConfig = {
-  apiKey: "ใส่ตรงนี้",
-  authDomain: "ใส่ตรงนี้",
-  projectId: "ใส่ตรงนี้",
-  storageBucket: "ใส่ตรงนี้",
-  messagingSenderId: "ใส่ตรงนี้",
-  appId: "ใส่ตรงนี้",
+apiKey: "AIzaSyDr_cwkESsJHhw_akop6tRzI9Ib6wWl7cw",
+  authDomain: "surarent.firebaseapp.com",
+  projectId: "surarent",
+  storageBucket: "surarent.firebasestorage.app",
+  messagingSenderId: "250193050542",
+  appId: "1:250193050542:web:551b263831e473ede2663f",
+  measurementId: "G-WY2B5XPGSG"
 };
 
 const app = initializeApp(firebaseConfig);
